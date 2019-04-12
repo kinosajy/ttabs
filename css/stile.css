@@ -1,0 +1,55 @@
+/*body*/
+body {
+  margin: 0;
+}
+
+.container{
+  margin: auto;
+  width: 100%;
+  max-width: 1170px
+}
+
+
+
+/*tabs*/
+.tt-tabs {
+  float: left;
+  width: 100%;
+}
+.index-tabs {
+  float: left;
+  width: 100%;
+  background-position: 0 50%;
+  background-repeat: repeat-x;
+}
+.index-tabs span {
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+  float: left;
+  padding-right: 7px;
+  background: #fff;
+  color: #d0d0d0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.index-tabs span.tab2 {
+  color: #d0d0d0;
+}
+.index-tabs span:hover {
+  color: #aaa;
+}
+.index-tabs2 span {
+  width: 50%;
+}
+.tt-panel {
+  display: none;
+  padding-top: 15px;
+  width: 100%;
+  clear: both;
+}
+.active-ttab {
+  color: #b92323 !important;
+}
